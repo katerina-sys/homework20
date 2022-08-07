@@ -29,7 +29,7 @@ class TestMovieService:
 
     def test_get_one(self):
         assert self.movie_service.get_one(1) is not None
-        assert self.movie_service.get_one(1).title == 'movie_1'
+        assert self.movie_service.get_one(1).title == 'comedy'
 
     def test_get_all(self):
         movies = self.movie_service.get_all()
